@@ -1,0 +1,155 @@
+html, body {
+	height: 100%;
+	margin:0px 0px 5px 0px;
+	font-family:  "Arial Black", Gadget, sans-serif;
+}
+
+/*used to force meatsection to fill the page */
+.back {
+	 background: #F3C568; 
+	height:100%;
+	min-width: 650px;
+}
+
+.back:before {
+	content:'';
+    float: left;
+    height: 100%;
+}
+
+
+
+
+/*black navigation bar under header with all links */
+.header {
+	min-width: 640px;
+	float:left;
+	top:10px;
+	right:10px;
+	left:10px;
+	height: 105px;
+	background: #000000;
+	position: fixed;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.header img {  /* logo */
+	width: 250px;
+	height:90px;
+	float:left;
+	margin: 10px 20px 10px 10px;
+}
+
+.navbox {
+	height:65px;
+	width: inherit;
+	margin-left: 270px;
+	clear:right;
+}
+
+.button {
+	color:#FFFFFF;
+	text-align: center;
+	display: inline-block;
+	margin-top: -5px;
+	padding: 8px 10px 5px 5px;
+	font-size: 1em;
+}
+
+
+.topspace {
+	height:40px;
+	width: inherit;
+	margin-left: 270px;
+	clear:right;
+}
+
+.meat {
+	position: absolute;
+	top:115px;
+	right: 10px;
+	left:0px;
+	bottom: 0px;
+	background: #FFFFFF; 
+	width: inherit;
+	overflow: hidden;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+.bio {
+	clear:left;
+	height:100%;
+	margin-top: -20px;
+	padding:0px 20px 0px 10px;
+	width: inherit;
+	text-align: left;
+
+}
+
+.bio h1 {
+	line-height: 120%;
+}
+
+.bio h2 {
+	line-height: 120%;
+}
+
+.bio p {
+	line-height: 120%;
+}
+
+#catzilla {
+	text-align: right;
+	line-height: 10%;
+}
+
+#portrait {
+	margin-left: 10px;
+	float: right;
+	height:100%;
+}
+
+
+
+/*for inital short cover page (no scrollling needed)*/
+.meatsectionshort {
+	min-width: 650px;
+	position:fixed;
+	top:10px;
+	right: 0px;
+	left:10px;
+	bottom: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+
+/*for scroll pages that are long*/
+.meatsectionlong {
+	width: 3000px;
+	position: relative;
+	margin:0px 10px 10px 10px;
+	bottom: -10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.meatsectionshort:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.meatsectionlong:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+

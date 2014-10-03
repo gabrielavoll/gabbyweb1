@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+	margin:0px 0px 5px 0px;
+	font-family:  "Arial Black", Gadget, sans-serif;
+}
+
+/*used to force meatsection to fill the page */
+.back {
+	 background: #AA0000; 
+	height:100%;
+	min-width: 600px;
+}
+
+.back:before {
+	content:'';
+    float: left;
+    height: 100%;
+}
+
+/*black navigation bar under header with all links */
+.header {
+	min-width: 600px;
+	float:left;
+	top:10px;
+	right:10px;
+	left:10px;
+	height: 90px;
+	background: #000000;
+	position: fixed;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.enter {
+	color:#FFFFFF;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	font-size: 3em;
+}
+
+.meat {
+	position: absolute;
+	top:90px;
+	right: 0px;
+	left:0px;
+	bottom: 0px;
+	background: #FFFFFF; 
+	width: inherit;
+	overflow: hidden;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+/*for inital short cover page (no scrollling needed)*/
+.meatsectionshort {
+	min-width: 600px;
+	position:fixed;
+	top:10px;
+	right: 10px;
+	left:10px;
+	bottom: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+
+.meatsectionshort:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#eyeball {
+	background: #000000;
+
+}
+
+canvas {
+	margin:auto;
+	display: block;
+	outline: 0px; 
+}

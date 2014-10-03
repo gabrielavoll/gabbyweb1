@@ -1,0 +1,47 @@
+<!-- add info page link 
+	update font
+ -->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="homestyle.css"/>
+		<title>Home</title>
+
+		<!--js call for eyeball animation -->
+		<script src="processing.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			// convenience function to get the id attribute of generated sketch html element
+			function getProcessingSketchId () { return 'EyeballCursor2'; }
+		</script>
+
+  </head>
+  <body>
+  	<div class="back">
+
+  		<div class="meatsectionshort">
+  			<div class="meat" id="eyeball">
+  				
+	  				<a href="https://artgato.tumblr.com">  <!-- put link to infopage -->
+						<canvas data-processing-sources="EyeballCursor2.pde" 
+								width="600" height="500">
+							<p>Your browser does not support the canvas tag.</p>
+							<!-- Note: you can put any alternative content here. -->
+						</canvas>
+						<noscript>
+							<p>JavaScript is required to view the contents of this page.</p>
+						</noscript>
+		    		</a>
+		    	
+  			</div>  <!-- meat end  -->
+  		</div> <!-- meatsection end-->
+
+
+  		<div class="header">
+  			<div class="enter"> Enter at Your Own Risk  </div>
+  		</div>
+
+  	</div> <!--back end -->
+  </body>
+</html>
